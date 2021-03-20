@@ -87,7 +87,7 @@ hr.nav {
 
 .container .about-me hr {
     width: 75px;
-    border: 1px solid blue;
+    border-top: 1px solid blue;
     margin-top: 0.75rem;
     margin-bottom: 0.25rem;
 }
