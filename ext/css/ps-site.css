@@ -1,0 +1,354 @@
+/* index Page */
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #c5cfda7a !important;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #116dff;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.line {
+    height: 70px;
+    width: 15px;
+    background-color: #116dff;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+
+body h2 span {
+    font-size: 1rem;
+}
+
+body .nav a h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+body .nav a h2 span {
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+hr.nav {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.container {
+    background-color: #a9bdd270!important;
+    font-size: 1rem;
+    margin: 1rem auto;
+    width: 65%;
+    padding: 1rem;
+    border: dashed 2px #41403E;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.container .about-me img {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.container .img p {
+    margin: 0% auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.container .img p:first-of-type {
+    margin: 5% auto 0 auto;
+}
+
+.container .image {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .about-me .img {
+    margin: auto;
+}
+
+.container .about-me hr {
+    width: 75px;
+    border: 1px solid blue;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.container .about-me hr:last-of-type {
+    margin-bottom: 0.75rem;
+}
+
+.container .about-me .img a,
+footer .social a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.container .about-me .img a:hover,
+footer .social a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.container .about-me .img .social {
+    text-align: center;
+}
+
+.container .about-me .details h1 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.container .about-me .details h4 {
+    font-family: sans-serif;
+    color: #000;
+}
+
+.container .about-me .details button.active,
+.container-resume .experience button,
+.container-portfolio .portfolio button {
+    border: 2px solid #116dff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    background: #116dff;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 0;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.4s ease 0s;
+    outline: none;
+}
+
+.container .about-me .details button,
+.container .about-me .details button:hover,
+.container-resume .experience button:hover,
+.container-portfolio .portfolio button:hover {
+    background: #fff;
+    color: #116dff;
+    border: 2px solid #116dff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 20px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 0;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.4s ease 0s;
+    outline: none;
+}
+
+.container .about-me .details .resume,
+.container .about-me .details .portfolio,
+.container .about-me .details .download,
+.resume-page,
+.portfolio-page {
+    display: none;
+}
+
+/* Resume Page */
+
+.container-resume {
+    background-color: transparent !important;
+    font-size: 1rem;
+    margin: 1rem auto;
+    width: 65%;
+    padding: 1rem;
+}
+
+.container-resume .h0 {
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+}
+
+.container-resume .experience {
+    margin: 4rem auto 3rem auto;
+    font-weight: 900;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.container-resume .box {
+    border: none;
+    background-color: #fff;
+    margin: 3rem auto;
+    padding: 4rem 2rem;
+    text-align: left;
+}
+
+.container-resume .box h4 {
+    color: #116dff;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.container-resume .box h5 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.container-resume .box h6 {
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: normal;
+}
+
+.container-resume .box p {
+    margin: 3rem auto;
+}
+
+.container-resume .experience span {
+    font-size: 2.5rem;
+}
+
+.container-resume .experience button.btn-download,
+.container-portfolio .portfolio button.btn-download {
+    margin: auto;
+    float: right;
+}
+
+.container-resume .experience button:hover,
+.container-portfolio .portfolio button:hover {
+    margin: auto;
+    float: right;
+}
+
+/* Portfolio Page */
+
+.container-portfolio {
+    background-color: transparent !important;
+    font-size: 1rem;
+    margin: 1rem auto;
+    width: 65%;
+    padding: 1rem;
+}
+
+.container-portfolio .h0 {
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+}
+
+.container-portfolio .portfolio {
+    margin: 4rem auto 3rem auto;
+    font-weight: 900;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.container-portfolio .box {
+    border: none;
+    background-color: #fff;
+    margin: 3rem auto;
+    text-align: left;
+}
+
+.container-portfolio .project-port {
+    margin: 3rem auto;
+}
+
+.container-portfolio .box h4 {
+    color: #116dff;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.container-portfolio .box h5 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.container-portfolio .box p {
+    margin: 3rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.container-portfolio .portfolio span {
+    font-size: 2.5rem;
+}
+
+.container-portfolio .col-md-5 {
+    padding: 0;
+}
+
+.container-portfolio .img-port {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.container-portfolio .img-port img {
+    vertical-align: middle;
+    border-style: none;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Footer Page */
+
+footer {
+    clear: both;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.80rem;
+    padding: 20px;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    background-color: blanchedalmond;
+    border-top: 1.5px solid #116dff;
+}
+
+footer .col-md-6 {
+    text-align: left;
+}
+
+footer span {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
