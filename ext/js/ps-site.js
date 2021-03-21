@@ -7,6 +7,7 @@ $('.details .btn-about').on('click', function(){
     $('.container').show(1000);
     $('.details .resume').hide(1000);
     $('.details .download').hide(1000);
+    $('.details .portfolio').hide(1000);
     $('.resume-page').hide(1000);
     $('.portfolio-page').hide(1000);
 });

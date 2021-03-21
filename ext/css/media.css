@@ -1,0 +1,232 @@
+@media screen and (max-width: 576px) {
+    
+    .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0.20rem;
+    }
+
+    /* About-me Page */
+
+    .container {
+        width: 100%;
+        margin: 1rem;
+        padding: 15px;
+    }
+
+    .nav h2 {
+        font-size: medium;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    .nav h2 span {
+        font-size: small;
+    }
+
+    .container .about-me .details h1 {
+        margin-top: 1rem;
+        font-size: x-large;
+    }
+
+    .container .about-me .details h4 {
+        font-size: large;
+        margin-bottom: 1rem;
+    }
+
+    .container .about-me .details button {
+        width: 48%;
+        margin: 0 auto;
+    }
+
+    .container .about-me .details p {
+        margin: 1rem auto;
+    }
+
+    footer {
+        position: relative;
+    }
+    
+    footer .col-md-6 {
+        text-align: center;
+    }
+
+    /* Resume Page */
+
+    .container-resume {
+        width: 100%;
+    }
+
+    .container-resume .h0 {
+        font-size: 30px;
+    }
+
+    .container-resume .experience {
+        margin: 2rem auto;
+    }
+
+    .container-resume .experience span {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    .container-resume .experience button.btn-download {
+        margin: 0.5rem auto;
+        font-size: 1rem;
+    }
+
+    .container-resume .box {
+        padding: 2rem 1rem;
+    }
+
+    /* Portfolio Page */
+
+    .container-portfolio {
+        width: 100%;
+    }
+
+    .container-portfolio .h0 {
+        font-size: 30px;
+    }
+
+    .container-portfolio .portfolio {
+        margin: 2rem auto;
+    }
+
+    .container-portfolio .portfolio span {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    .container-portfolio .portfolio button.btn-download {
+        margin: 0.5rem auto;
+        font-size: 1rem;
+    }
+
+    .container-portfolio .box {
+        padding: 2rem 1rem;
+    }
+
+    .container-portfolio .box .project-port p {
+        margin: 2rem 1rem 1rem;
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 900px) {
+    
+    .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0.20rem;
+    }
+
+    /* About-me Page */
+
+    .container {
+        width: 100%;
+        margin: 1rem;
+        padding: 15px;
+    }
+
+    .nav h2 {
+        font-size: x-large;
+    }
+    
+    .nav h2 span {
+        font-size: medium;
+    }
+
+    .container .about-me .details h1 {
+        margin-top: 1rem;
+        font-size: x-large;
+    }
+
+    .container .about-me .details h4 {
+        font-size: large;
+        margin-bottom: 1rem;
+    }
+
+    .container .about-me .details button {
+        width: 48%;
+        margin: 0 auto;
+    }
+
+    .container .about-me .details p {
+        margin: 1rem auto;
+    }
+
+    footer {
+        position: relative;
+    }
+    
+    footer .col-md-6 {
+        text-align: center;
+    }
+
+    /* Resume Page */
+
+    .container-resume {
+        width: 100%;
+    }
+
+    .container-resume .h0 {
+        font-size: 30px;
+    }
+
+    .container-resume .experience {
+        margin: 2rem auto;
+    }
+
+    .container-resume .experience span {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    .container-resume .experience button.btn-download {
+        margin: 0.5rem auto;
+        font-size: 1rem;
+    }
+
+    .container-resume .box {
+        padding: 2rem 1rem;
+    }
+
+    /* Portfolio Page */
+
+    .container-portfolio {
+        width: 100%;
+    }
+
+    .container-portfolio .h0 {
+        font-size: 30px;
+    }
+
+    .container-portfolio .portfolio {
+        margin: 2rem auto;
+    }
+
+    .container-portfolio .portfolio span {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    .container-portfolio .portfolio button.btn-download {
+        margin: 0.5rem auto;
+        font-size: 1rem;
+    }
+
+    .container-portfolio .box {
+        padding: 2rem 1rem;
+    }
+
+    .container-portfolio .box .project-port p {
+        margin: 2rem 1rem 1rem;
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+
+}
