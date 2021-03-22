@@ -307,6 +307,13 @@ footer .social a:hover {
     font-weight: bold;
 }
 
+.container-portfolio .box .project-port a {
+    color: #116dff;
+    margin: 2rem 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .container-portfolio .portfolio span {
     font-size: 2.5rem;
 }
@@ -323,7 +330,8 @@ footer .social a:hover {
 .container-portfolio .img-port img {
     vertical-align: middle;
     border-style: none;
-    object-fit: cover;
+    object-fit: contain;
+    position: relative;
     width: 100%;
     height: 100%;
     display: block;
