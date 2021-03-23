@@ -125,6 +125,22 @@ footer .social a:hover {
     color: #000;
 }
 
+.container h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-top: 0.25rem;
+    margin-left: -3rem;
+}
+
+.container .about-me .cv-download {
+    color: #c50e20;
+    margin: 2rem -1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .container .about-me .details button.active,
 .container-resume .experience button,
 .container-portfolio .portfolio button {
