@@ -113,6 +113,10 @@
         letter-spacing: normal;
     }
 
+    .container-portfolio .img-port img {
+        position: relative;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 900px) {
@@ -226,6 +230,10 @@
         margin: 2rem 1rem 1rem;
         font-weight: normal;
         letter-spacing: normal;
+    }
+
+    .container-portfolio .img-port img {
+        position: relative;
     }
 
 
